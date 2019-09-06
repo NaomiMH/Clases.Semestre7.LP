@@ -248,6 +248,6 @@ def parse(tokens, parse_tree=None):
 def only_tokens(token_tuples):
     return [t[0] for t in token_tuples]
 
-test1 = '(+ (- #m))'
+test1 = '(t #f &(params 324) (* kdasjn 3847))'
 
 print(parse(only_tokens(scan(test1))))
