@@ -17,3 +17,5 @@ PARAM -> EXP | ID | INT | BOOL | LIST
 BOOL -> #t | #f 
 
 LIST -> ‘( PARAMS )
+
+Nota: ‘ se cambio a & para facilitar el reconocimiento.
