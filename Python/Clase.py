@@ -1,6 +1,6 @@
 import string
 from enum import IntEnum
-#from anytree import Node, RenderTree
+from anytree import Node, RenderTree
 
 
 class Symbol(IntEnum):
