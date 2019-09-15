@@ -61,6 +61,10 @@
   (cond [(null? li) -1]
         [else (posnmed li (/ (count li) 2))]))
 
+;prom,mediana,moda
+(define (pmm li)
+  (list (promedio li) (moda li) (mediana li)))
+
 ;rango
 (define (rango n m)
   (cond [(= n m) (list m)]
